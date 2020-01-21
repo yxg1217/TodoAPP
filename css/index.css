@@ -1,0 +1,23 @@
+#background {
+	position:fixed;
+	top:0;
+	left:0; /*div固定在屏幕的最上方和最左方*/
+	width:100%;
+	height:100%;/*div跟屏幕实现一模一样的大小，从而达到全屏效果*/
+	z-index:-10; /*div在HTML页面中各个层级的下方*/
+	background-repeat:no-repeat;
+	background-size:cover;/*让图片随屏幕大小同步缩放*/
+}
+#header {
+/*	background-color: #C0C0C0;*/
+	color: #808080;
+	text-align:center;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 30px;
+	text-shadow: #EDEDED 3px 2px 0;
+/*	font-weight: 800;*/
+/*	letter-spacing: -3px;*/
+	line-height: 1;
+/*	position: relative;*/
+}
+
